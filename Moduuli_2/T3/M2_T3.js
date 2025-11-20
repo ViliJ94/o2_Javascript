@@ -1,9 +1,9 @@
 'use strict';
 
-let inu = []
+let inu = [];
 
 for (let i = 0; i < 6; i++) {
-  let name = prompt(`Enter the name of six dogs. Dog ${i + 1}:`);
+  let name = prompt(`Enter the names of six dogs. Dog ${i + 1}:`);
   inu.push(name);
 }
 
