@@ -2,7 +2,7 @@
 
 let nmbrs = [];
     for (let i = 0; i < 5; i++) {
-        let num = prompt("Enter a number:");
+        let num = prompt(`Enter five numbers. Number ${i + 1}:`);
         nmbrs.push(num);
     }
 
