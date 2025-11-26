@@ -9,3 +9,4 @@ targetElement.innerHTML = `
     <li>second item</li>
     <li>third item</li>
 `;
+targetElement.classList.add('my-list');
